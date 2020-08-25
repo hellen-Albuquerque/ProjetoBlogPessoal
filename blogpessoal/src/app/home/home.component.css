@@ -1,0 +1,9 @@
+.parallax {
+    background-image: url('https://urgesunde-ernaehrung-und-naturmedizin.de/wp-content/uploads/2020/03/Corona-Virus-in-der-Bloggerszene-scaled.jpg');
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
