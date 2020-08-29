@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./perfil.component.css']
 })
 export class PerfilComponent implements OnInit {
+  
+  nome: string = 'Hellen Albuquerque'
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.nome = 'Hellen Albuquerque'
   }
 
 }
