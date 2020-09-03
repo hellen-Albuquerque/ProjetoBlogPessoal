@@ -4,5 +4,5 @@ export class Postagem {
     public titulo: string
     public texto: string
     public data: Date
-    public Tema: Tema 
+    public tema: Tema 
 }

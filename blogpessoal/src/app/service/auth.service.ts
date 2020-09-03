@@ -12,14 +12,13 @@ export class AuthService {
 
   logar(userLogin: UserLogin) {
     return this.http.post('http://localhost:9000/usuarios/logar', userLogin)
-
   }
 
   cadastrar(user: User) {
     return this.http.post('http://localhost:9000/usuarios/cadastrar', user)
   }
 
-  btnSair() {
+  btnSair(){
     let ok = false
     let token = localStorage.getItem('token')
 
@@ -39,7 +38,6 @@ export class AuthService {
     }
 
     return ok
-
   }
 
 }
